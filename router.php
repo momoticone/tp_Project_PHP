@@ -33,7 +33,7 @@ if (isset($_SERVER['PATH_INFO']) == false)
 {
     require DOSSIER_CONTROLLERS.'/produit.php';
     delete();
-}else if ($_SERVER['PATH_INFO'] == '/modifier-produit') //EXERCICE 12 :Ajout d'une route /modifier-produit
+}else if ($_SERVER['PATH_INFO'] == '/modifier-produit') //EXERCICE 12 :Ajout d'une route /modifier-produit 
 {
     require DOSSIER_CONTROLLERS.'/produit.php';
     edit();
