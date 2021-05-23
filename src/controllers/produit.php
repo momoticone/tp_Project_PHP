@@ -129,5 +129,5 @@ function edit()
             onVaRediriger('/catalogue');
         }
     }
-    include __DIR__.'/../../views/produit/catalog.html.php';
+    include __DIR__.'/../../views/produit/modifier.html.php';
 }
